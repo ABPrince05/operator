@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main ()
+{
+    int x,y,sum;
+    printf("Enter two number - \n");
+    scanf("%d %d", &x ,&y);
+    sum=x+y;
+    printf("Addition : %d", sum);
+    return 0;
+}
+
+#include<stdio.h>
+int main ()
+{
+    float x,y,a;
+    printf("Enter two number - \n");
+    scanf("%f %f", &x ,&y);
+    a=(3.31*x*x+2.01*y*y*y)/(7.16*y*y+2.01*x*x*x);
+    printf("Addition : %f", a);
+    return 0;
+}
